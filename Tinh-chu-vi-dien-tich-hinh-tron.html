@@ -14,6 +14,8 @@
         r = parseInt(r)
         let c = 2 * r * Math.PI
         let s = r * r * Math.PI
+        c = c.tofixed(1)
+        s = s.tofixed(1)
         alert('Chu vi là:' + c)
         alert('Diện tích là:' + s)
 
